@@ -1,0 +1,11 @@
+# ChirpRelay has NO external dependencies.
+#
+# It uses only the Python standard library:
+#   socket, threading, json, queue, argparse, datetime, tkinter
+#
+# tkinter ships with the standard Windows/macOS Python installer.
+# On Linux it may need to be installed separately, e.g.:
+#   sudo apt install python3-tk
+#
+# This file is kept for completeness / convention (some course
+# submission systems expect a requirements.txt to exist).
